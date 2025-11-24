@@ -1,2 +1,119 @@
-# Andrewdej.github.io
-Es un trabajo del SENA, hay mucho por mejorar 
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>PIPORARA</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: white;
+        }
+
+        header {
+            background:red;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: gray;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color:white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .contenedor {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .productos {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .producto {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #0002;
+            text-align: center;
+        }
+
+        footer {
+            background:red;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>PIPORARA</h1>
+        <p>Piporara,tradición Caldense</p>
+    </header>
+
+    <nav>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="contenedor">
+
+        <h2 id="nosotros">Sobre nosotros</h2>
+        <p>Panaderia que lleva años entregandole alegria al pueblo caldense con sus productos.</p>
+
+        <h2 id="productos">Productos</h2>
+
+        <div class="productos">
+            <div class="producto">
+                <img src="Buñuelos.jpg" width="200">
+                <h3>Buñuelo</h3>
+                <p>Crujiente por fuera, suave por dentro.</p>
+            </div>
+
+            <div class="producto">
+                <img src="pan de queso.jpg" width="200">
+                <h3>Pan de Queso</h3>
+                <p>La receta tradicional de la casa.</p>
+            </div>
+
+            <div class="producto">
+                <img src="palitos de queso.jpg" width="200">
+                <h3>Palitos de Queso</h3>
+                <p>Los mejores de la ciudad.</p>
+            </div>
+        </div>
+
+        <h2 id="contacto">Contacto</h2>
+        <p>Dirección: Calle 134 sur # 47-11</p>
+        <p>Teléfono:Proximamente</p>
+
+    </div>
+
+    <footer>
+         2025 Panadería Piporara - Todos los derechos reservados
+    </footer>
+
+</body>
+</html>
